@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+# generated outputs are reproducible from `data/` + the code
+output/*.csv
+# never commit the multi-GB source duckdb; it's a separate data deposit
+*.duckdb

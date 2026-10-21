@@ -1,0 +1,12 @@
+[project]
+name = "rare-disease-breadth-depth"
+version = "0.1.0"
+description = "Reproducible rare-disease treatment + phenotype breadth/depth scoring for the Monarch KG paper."
+requires-python = ">=3.12"
+dependencies = [
+    "pandas==3.0.6",
+    "numpy==2.5.4",
+]
+
+[tool.uv]
+# `uv lock` freezes exact resolution; uv.lock is committed alongside.

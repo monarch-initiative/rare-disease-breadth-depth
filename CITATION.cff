@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Rare-disease treatment + breadth/depth scoring: a reproducible extraction"
+message: "If you use this analysis, please cite it."
+type: software
+authors:
+  - family-names: Schaper
+    given-names: Kevin
+    affiliation: Monarch Initiative
+repository-code: "https://github.com/monarch-initiative/rare-disease-breadth-depth"
+abstract: >-
+  Frozen, reproducible extraction of the rare-disease prioritization score from
+  Monarch KG (monarch-ingest PR #632), combining treatment availability with HPO
+  phenotype breadth/depth information content.
+keywords:
+  - rare disease
+  - knowledge graph
+  - Monarch Initiative
+  - Human Phenotype Ontology
+license: BSD-3-Clause
+version: "0.1.0"
